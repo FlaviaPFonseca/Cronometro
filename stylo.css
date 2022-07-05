@@ -1,0 +1,87 @@
+/*Geral*/
+*{
+  margin:0;
+  padding:1px;
+  font-family:Helvetica, sans-serif;
+}
+/*barra de navegação -Cabeçalho*/
+nav{
+  background-color: #1bbf78;
+  border-bottom: 3px solid #2d3934;
+  height: 50px;
+  }
+  #logo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    position:absolute;
+    top: 15px;
+    left: 10px;
+  }
+  #menu{
+    list-style: none;/*remove as bolinhas do menu*/
+    float: right;
+    margin-top: 17px;
+  }
+  .item {
+    display: inline-block;
+    margin-left:10px;
+    margin-right: 10px;
+  }
+  .item a{ /* mudar a cor dos links do menu*/
+    color:#fff;
+    text-decoration: none;
+  }
+  .item a:hover{
+    color:rgb(61, 51, 51);
+    transition:0.5s;
+  }
+  /* FIM DA PROPRIEDADE DO CABEÇALHO*/
+  /*Rodape*/
+footer{
+  clear: both;
+  background-color:#1bbf78 ;
+  height: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom:15px;
+}
+/* fim do rodapé */
+/* corpo do cronometro*/
+body {
+  font-family: Helvetica, Arial, sans-serif; 
+  height:100%;
+  }
+  
+  .wrapper {
+  width: 800px;
+  margin: 30px auto;
+  border: 1px solid green;
+  color:#040403;
+  text-align:center;
+  }
+ 
+   h2, h3 {
+    font-family:Arial, Helvetica, sans-serif bold;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+  }
+  
+  #seconds, #tens{
+    font-size:2em;
+    }
+  
+  button{
+  background:#040403;
+  color:#fff;
+  border: solid 1px #fff;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.5em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+   outline: none;
+  }
